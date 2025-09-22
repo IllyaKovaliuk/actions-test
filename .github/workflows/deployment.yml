@@ -38,6 +38,6 @@ jobs:
               with:
                 name: components
                 path: |
-                  components
+                  src/components
 
 
