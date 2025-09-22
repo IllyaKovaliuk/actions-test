@@ -8,7 +8,7 @@ jobs:
             - name: Find code
               uses: actions/checkout@v3
             - name: Caching info
-              uses: actions/caching@v3
+              uses: actions/cache@v3
               with:
                 path: ~/.npm
                 key: deps-node-modules-${{ hashFiles('**/package-lock.json') }}
@@ -23,7 +23,7 @@ jobs:
             - name: Find code
               uses: actions/checkout@v3
             - name: Caching info
-              uses: actions/caching@v3
+              uses: actions/cache@v3
               with:
                 path: ~/.npm
                 key: deps-node-modules-${{ hashFiles('**/package-lock.json') }}
@@ -38,7 +38,7 @@ jobs:
             - name: Find code
               uses: actions/checkout@v3
             - name: Caching info
-              uses: actions/caching@v3
+              uses: actions/cache@v3
               with:
                 path: ~/.npm
                 key: deps-node-modules-${{ hashFiles('**/package-lock.json') }}
