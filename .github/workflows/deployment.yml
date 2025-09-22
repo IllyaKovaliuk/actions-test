@@ -33,7 +33,7 @@ jobs:
               run: npm run build
             - name: Deploy code
               run: echo "Deploying code"
-            - name: Upload files #ahahahahahakdkkdkdkd
+            - name: Upload files 
               uses: actions/upload-artifact@v4
               with:
                 name: components
