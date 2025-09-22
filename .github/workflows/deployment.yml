@@ -34,7 +34,7 @@ jobs:
             - name: Deploy code
               run: echo "Deploying code"
             - name: Upload files
-              uses: actions/artifact@v3
+              uses: actions/upload-artifact@v3
               with:
                 name: components
                 path: |
